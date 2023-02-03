@@ -5,11 +5,10 @@ import glob
 import os
 import numpy as np
 from sklearn.model_selection import train_test_split
-
 import pandas as pd
-
 from sklearn.linear_model import LogisticRegression
 
+mlflow.autolog()
 
 # define functions
 def main(args):
